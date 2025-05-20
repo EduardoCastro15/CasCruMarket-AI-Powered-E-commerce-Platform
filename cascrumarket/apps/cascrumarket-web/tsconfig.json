@@ -1,6 +1,10 @@
 {
   "extends": "@repo/typescript-config/nextjs.json",
   "compilerOptions": {
+    "baseUrl": ".",        // Muy importante
+    "paths": {
+      "@/*": ["./*"]       // Permite que @ apunte a la raíz de apps/cascrumarket-web
+    },
     "plugins": [
       {
         "name": "next"
