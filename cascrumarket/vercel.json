@@ -1,0 +1,6 @@
+{
+    "rootDirectory": "apps/cascrumarket-web",
+    "buildCommand": "pnpm install --no-frozen-lockfile && pnpm build",
+    "outputDirectory": ".next"
+  }
+  
